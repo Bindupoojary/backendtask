@@ -15,4 +15,3 @@ demotask.settings:
     display:
       type: boolean
       label: 'Display'
-

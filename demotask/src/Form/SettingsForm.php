@@ -19,7 +19,7 @@ class SettingsForm extends ConfigFormBase {
     return 'demotask_settings';
   }
 
-   /**
+  /**
    * {@inheritdoc}
    */
   protected function getEditableConfigNames() {
