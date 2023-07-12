@@ -3,7 +3,16 @@ demotask.settings:
   type: config_object
   label: 'demotask settings'
   mapping:
-    example:
+    title:
       type: string
-      label: 'Example'
+      label: 'Title'
+    text:
+      type: text
+      label: 'Text'
+    format:
+      type: string
+      label: 'Format'
+    display:
+      type: boolean
+      label: 'Display'
 
