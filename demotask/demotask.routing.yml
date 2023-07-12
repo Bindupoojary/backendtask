@@ -1,0 +1,7 @@
+demotask.settings_form:
+  path: '/admin/config/system/demotask'
+  defaults:
+    _title: 'demotask settings'
+    _form: 'Drupal\demotask\Form\SettingsForm'
+  requirements:
+    _permission: 'administer demotask configuration'

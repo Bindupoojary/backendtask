@@ -1,0 +1,4 @@
+administer demotask configuration:
+  title: 'Administer demotask configuration'
+  description: 'Optional description.'
+  restrict access: true

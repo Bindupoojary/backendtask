@@ -1,7 +1,0 @@
-newtask.settings_form:
-  path: '/admin/config/system/newtask'
-  defaults:
-    _title: 'newtask settings'
-    _form: 'Drupal\newtask\Form\SettingsForm'
-  requirements:
-    _permission: 'administer newtask configuration'

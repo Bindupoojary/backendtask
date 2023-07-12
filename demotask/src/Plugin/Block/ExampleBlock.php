@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\newtask\Plugin\Block;
+namespace Drupal\demotask\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
@@ -11,9 +11,9 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  * Provides an example block.
  *
  * @Block(
- *   id = "newtask_example",
+ *   id = "demotask_example",
  *   admin_label = @Translation("Example"),
- *   category = @Translation("newtask")
+ *   category = @Translation("demotask")
  * )
  */
 class ExampleBlock extends BlockBase implements ContainerFactoryPluginInterface {
@@ -58,7 +58,7 @@ class ExampleBlock extends BlockBase implements ContainerFactoryPluginInterface 
    * Returns rendered output for the block.
    */
   public function build() {
-    $config = $this->configFactory->getEditable('newtask.settings');
+    $config = $this->configFactory->getEditable('demotask.settings');
     $title = $config->get('title');
     $text = $config->get('text')['value'];
     $display = $config->get('display');

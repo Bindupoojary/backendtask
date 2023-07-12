@@ -1,13 +1,13 @@
 # Custom module library for general purposes.
-newtask:
+demotask:
   js:
-    js/newtask.js: {}
+    js/demotask.js: {}
   css:
     component:
-      css/newtask.css: {}
+      css/demotask.css: {}
   dependencies:
     - core/drupalSettings
-    - newtask/jquery-labelauty
+    - demotask/jquery-labelauty
 
 # Third-party library (self hosted).
 jquery-labelauty:

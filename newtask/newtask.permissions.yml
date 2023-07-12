@@ -1,4 +1,0 @@
-administer newtask configuration:
-  title: 'Administer newtask configuration'
-  description: 'Optional description.'
-  restrict access: true

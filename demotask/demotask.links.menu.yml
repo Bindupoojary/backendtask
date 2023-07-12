@@ -1,0 +1,6 @@
+demotask.settings_form:
+  title: 'demotask'
+  description: 'Configure demotask.'
+  parent: system.admin_config_system
+  route_name: demotask.settings_form
+  weight: 10
