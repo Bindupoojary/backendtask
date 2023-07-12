@@ -1,0 +1,6 @@
+newtask.settings_form:
+  title: 'newtask'
+  description: 'Configure newtask.'
+  parent: system.admin_config_system
+  route_name: newtask.settings_form
+  weight: 10
